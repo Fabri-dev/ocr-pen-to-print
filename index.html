@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen to Print</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a23e4d8427.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Pen to Print OCR</h1>
+    </header>
+    <main>
+        <section id="inputSection">
+            
+            <div id="dropHere">
+                <h3>Drop it Here!</h3>
+            </div> <!--inactive-->
+
+            
+
+                <form id="userForm" method="post">
+                    <label for="userImage">Upload your image:</label>
+                    <input type="file" name="userImage" id="userFile" accept=".jpg,.png,.jpeg" required>
+                    <button id="submitButton" type="submit">Convert</button>
+                </form>
+                <button id="clearButton" type="button"><i class="fa-solid fa-trash"></i></button>
+
+
+        </section>
+
+        <section id="outputSection">
+            <textarea id="outputText">Text will be displayed here...</textarea>
+        </section>
+
+        <section>
+            <h2>What is Pen to Print OCR?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo alias ut cum magnam magni necessitatibus corporis blanditiis nam odit quisquam. Tenetur soluta expedita possimus? Vitae error laborum repudiandae amet veritatis?</p>
+        </section>
+
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
