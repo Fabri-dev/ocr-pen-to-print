@@ -35,7 +35,7 @@ const loadOptionsForApi= file =>{
         options = {
             method: 'POST', // por default si no escribimos explicitamente method, se hara GET.
             headers: {
-                'x-rapidapi-key': '594c5b388amshaaee958da1dcb18p1093f9jsn8ed63e3fd285',
+                'x-rapidapi-key': 'API_KEY',
                 'x-rapidapi-host': 'pen-to-print-handwriting-ocr.p.rapidapi.com'
             },
             body: data
